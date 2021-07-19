@@ -1,0 +1,116 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+  background-color: rgb(229, 229, 235);
+}
+
+.header {
+  background-color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    height: 6rem;
+    box-shadow: 0 6px 2px -2px rgb(194, 194, 194);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.outer {
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-top: 0rem;
+    height: 28px;
+    width: 48px;
+}
+
+.inner {
+    margin: 9px;
+    background-color: rgb(6, 16, 70);
+    width: inherit;
+    border-radius: 20%;
+    height: 7px;
+}
+
+.dashboard {
+    padding-top: 1.3rem;
+    margin: 0px;
+    width: 30%;
+    font-size: 1.6rem;
+    color: rgb(6, 16, 70);
+}
+
+.breadcrambs{
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.5rem;
+  margin-bottom: 3rem;
+  width: 95%;
+  height: 2rem;
+}
+
+.cramb{
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(14, 78, 238);
+  width: 28%;
+  height: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .cramb{
+    font-size: 1rem;
+  }
+}
+
+.apply{
+  opacity: 0.4;
+}
+
+.inProgress{
+  border-right: 1px solid rgb(169, 166, 166);
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.matchCard {
+  margin-top: 2rem;
+  width: 85%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(209, 209, 209);
+  box-shadow: 0 2px 2px 2px rgb(194, 194, 194);
+  padding: 1.5rem;
+}
+
+.investorName {
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+
+.site{
+  margin-bottom: 1.5rem;
+  font-size: 1.44rem;
+}
+
+.applied{
+  margin-bottom: 0.7rem;
+  font-size: 1.44rem;
+}
+
+.status{
+  color: rgb(2, 220, 191);
+  font-size: 1.44rem;
+}
+
+a { color: inherit; }
